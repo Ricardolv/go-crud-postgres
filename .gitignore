@@ -1,0 +1,62 @@
+# Ignore os binários Go criados na pasta local
+/bin/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+/*.test
+
+# Diretórios e arquivos gerados pelo build do Go
+/build/
+*.out
+
+# Arquivos do mod e cache do Go Modules
+/go/pkg/
+/go/bin/
+go.sum
+vendor/
+
+# Diretórios de cache do Go
+/.cache/
+/.go_workspace/
+
+# Arquivos e diretórios específicos do macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos de configuração e metadados do macOS
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+.DS_Store
+
+# Arquivos e diretórios específicos do IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+/*.ipr
+/.idea_modules/
+/.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/dictionaries
+.idea/libraries/
+/.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/modules.xml
+.idea/misc.xml
+
+# Logs e outras informações temporárias do IntelliJ transient
+.idea/httpRequests/
+/.idea/replstate/
+/.idea/{filename}.html
+
+# Logs gerais
+*.log
+
+# Ignorar patches locais
+*.patch
